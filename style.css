@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+:root {
+	--primary: #EA40A4;
+	--business: #3a82ee;
+	--personal: var(--primary);
+	--light: #EEE;
+	--grey: #888;
+	--dark: #313154;
+	--danger: #ff5b57;
+
+	--shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+	--business-glow: 0px 0px 4px rgba(58, 130, 238, 0.75);
+	--personal-glow: 0px 0px 4px rgba(234, 64, 164, 0.75);
+}
+/* Variables */
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    background: var(--gray-600, #1A1A1A);
+  }
+  
+  .header {
+    background: var(--gray-700, #0D0D0D);
+    height: 200px;
+    display: grid;
+    justify-content: center;
+    align-items: center; 
+  }
+  .header-content{
+    display: flex;
+    padding: 55px;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  
+  /* todo text style */
+  .to {
+    color: var(--blue, #4EA8DE);
+    font-family: 'Inter';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+  
+  .do {
+    color: var(--purple-dark, #5E60CE);
+    font-family: 'Inter';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+  
+  .navbar-brand {
+    margin-right: 12px;
+    width: 22px;
+   height: 36px;
+    flex-shrink: 0;
+  }
+
+/*MAIN PART */
+.main-part{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+  .new-task{
+    display: flex;
+    padding: 16px;
+
+
+  }
+ /*Кнопка писать */
+ .search{
+    margin-right: 8px;
+  }
+  .search-text{
+     width: 638px;
+    height: 54px;
+border-radius: 8px;
+border: 1px solid var(--gray-700, #0D0D0D);
+background: var(--gray-500, white);
+  }
+
+  /*Кнопка добавить*/
+.submit-search{
+  height: 52px;
+  width: 90px;
+border-radius: 8px;
+background: var(--purple-dark, #5E60CE);
+}
+  
+
+
+
+
+ .submit-search2{
+  height: 52px;
+  width: 90px;
+border-radius: 8px;
+background:  var(--blue, #4EA8DE);;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
